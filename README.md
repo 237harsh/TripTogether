@@ -39,6 +39,8 @@ Follow the instructions below to get started with TripTogether:
    ```shell
    git clone https://github.com/your-username/TripTogether.git
 
+   
+
 
 
    
