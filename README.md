@@ -1,6 +1,6 @@
 
 # TripTogether
-
+## Live Host :  https://triptogether.onrender.com
 TripTogether is a ride-sharing application that provides a convenient and efficient platform for connecting individuals and reducing transportation costs while minimizing environmental impact.
 
 ## Features
