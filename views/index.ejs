@@ -18,47 +18,118 @@
 </head>
 <body>
     <a id="button"></a>
-
+    <style>
+        /* Styling for the header */
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+        }
+    
+        .nav h2 {
+            font-family: "Arial", sans-serif;
+            font-size: 24px;
+            margin-right: 10px;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+    
+        .nav h2:hover {
+            color: #f2f2f2;
+            transform: rotate(10deg); /* Example of a dynamic feature */
+        }
+    
+        .logo-pic {
+            max-width: 40px;
+            margin-right: 10px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+    
+        .logo-pic:hover {
+            transform: scale(1.1) rotate(-10deg); /* Example of a dynamic feature */
+        }
+    
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+    
+        .nav ul li {
+            margin-left: 10px;
+        }
+    
+        .nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+    
+        .nav ul li a:hover {
+            color: #f2f2f2;
+        }
+    
+        /* Styling for centering the menu items */
+        .nav ul {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+    
     <div class="nav">
-        <img src="https://media.discordapp.net/attachments/741244174736556076/898501079019450438/unknown.png" alt="logo-pic">
+        <h2>RideX</h2>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fvector%2Fcarpooling-icon-on-white-background-gm948823690-259026865&psig=AOvVaw3ZIDFisLy-qrlqap7e0UB2&ust=1712712033489000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjxqdj7s4UDFQAAAAAdAAAAABAE" alt="logo-pic" class="logo-pic">
         <ul class="n-1">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#ins">Steps</a>
-            </li>
-            <li>
-                <a href="#rev">Reviews</a>
-            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#ins">Steps</a></li>
+            <li><a href="#rev">Reviews</a></li>
         </ul>
     </div>
+    
+
+    
     <div class="landing-div">
         <div class="title-desc">
-            <h1>
-                Meet your new  <br>
-                transport app
-            </h1>
-            <p>
-                Caring for environment and connecting people <br>
-                when they are outside.
-            </p>
+            <h1>Meet your new<br>transport app</h1>
+            <p>Caring for the environment and connecting people<br>when they are outside.</p>
             <div class="link">
                 <a href="/register" class="reg">Register</a>
                 <a href="/login" class="log">Login</a>
             </div>
         </div>
-        <img src="https://media.discordapp.net/attachments/741244174736556076/898244878633406474/unknown.png?width=583&height=513" alt="landing-pic">
+        <img src="https://img.freepik.com/free-vector/carpool-concept-illustration_114360-9238.jpg?size=626&ext=jpg&ga=GA1.1.197382459.1712625247&semt=sph" alt="landing-pic" class="landing-pic">
     </div>
+    
+
+
+
+    
     <div class="about-sec">
-        <h1 id="about">About Us</h1>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum praesentium <br>
-            consequuntur sint suscipit, ea labore, cumque aliquid repellendus voluptas <br>
-            maxime modi eligendi neque in ipsum perferendis veniam, similique veritatis <br>
-            magni!
-        </p>
-        <img src="https://media.discordapp.net/attachments/741244174736556076/898267637967093780/unknown.png" alt="l-pic">
+        <h1 id="about" style="font-weight: bold; font-size: 24px; color: #333;">About Us</h1>
+<p style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #666;">
+    Welcome to RideX, where we're dedicated to reducing carbon emissions through carpooling. Our platform<br> 
+    connects individuals with shared destinations, enabling efficient ride-sharing and a greener future.
+</p>
+<p style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #666;">
+    With features like ride creation, offering, chat communication, validated user info, and map integration,<br>
+    we provide a seamless and eco-friendly transportation experience across India.
+</p>
+<p style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #666;">
+    Join RideX today and be part of the movement towards sustainable and cost-effective travel.<br><br> 
+    
+                       RideX: Your journey, our responsibility.
+</p>
+        <img src="https://banner2.cleanpng.com/20180329/zue/kisspng-computer-icons-user-profile-person-5abd85306ff7f7.0592226715223698404586.jpg" alt="l-pic">
         <h2>
             Don't waste gasoline. <br>
             Share your car. 
@@ -76,7 +147,7 @@
                 </div>
                 <h3>Step 1</h3>
                 <p>
-                    Some protocol.
+                    Register & Login.
                 </p>
             </div>
             <div class="step-2">
@@ -90,7 +161,7 @@
                 </div>
                 <h3>Step 2</h3>
                 <p>
-                    Some protocol.
+                    Explore Ride.
                 </p>
             </div>
             <div class="step-3">
@@ -107,7 +178,7 @@
                 </div>
                 <h3>Step 3</h3>
                 <p>
-                    Some protocol.
+                    Chat With People.
                 </p>
             </div>
             <div class="step-4">
@@ -127,7 +198,7 @@
                 </div>
                 <h3>Step 4</h3>
                 <p>
-                    Some protocol.
+                    Explore Available Ride On Map.
                 </p>
             </div>
         </div>
@@ -144,13 +215,13 @@
                 Awesome Job
             </h2>
             <div class="line-user"></div>
-            <h3>User</h3>
+            <h3>Harsh</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing <br>
-                elit. Nam quis sed recusandae, alias facere sapiente <br>
-                iusto modi eaque officia nobis obcaecati minima! <br>
+                I have Used RideX To find the best &Cost Effective , <br>
+                Ride. I am Also Contibute in our sustainable goal <br>
+                and Carbon emission Goal . It was Bcz of RideX. <br>
                 <br><br>
-                Dolorem illum nisi hic. Amet odit facilis a.
+                Thank You RideX !.
             </p>
         </div>
         <div class="user-desc">
@@ -164,8 +235,10 @@
     <div class="footer">
         <div class="circle"></div>
         <p>
-            Lorem ipsum dolor sit amet <br>
-            consectetur adipisicing elit.
+            Our Goal Is Be Together Build Future! <br>
+            #ReduceCarbonEmission #Sustainability <br>
+            #ConnnectPeople !.
+            <br>
         </p>
         <ul class="foot-nav">
             <li>About</li>
